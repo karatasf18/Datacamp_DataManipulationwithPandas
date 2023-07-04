@@ -1,0 +1,9 @@
+# exercise_listofdictionaries
+avocados_list = [ 
+                { "date": "2019-11-03", "small_sold" : 10376832, "large_sold" : 7835071},
+                 { "date": "2019-11-10", "small_sold" : 10717154, "large_sold" : 8561348},
+]
+
+avocados_2019 = pd.Dataframe(avocados_list)
+
+print(avocados_2019)
