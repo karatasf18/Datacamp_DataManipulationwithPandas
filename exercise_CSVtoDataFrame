@@ -4,4 +4,4 @@
 airline_bumping = pd.read_csv("airline_bumping.csv")
 
 # Take a look at the DataFrame
-print(airline_bumping)
+print(airline_bumping.head())
